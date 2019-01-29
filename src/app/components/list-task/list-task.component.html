@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">TAREFA</th>
+      <th scope="col">DATA CRIAÇÃO</th>
+      <th scope="col">OPÇÃO</th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr *ngFor="let task of tasks">
+      <td>{{task.id}}</td>
+      <td>{{task.assignment}}</td>
+      <td>{{task.creationDate | date:'medium'}}</td>
+      <td><button class="btn btn-primary" type="submit" (click)='remove(task)'>remover</button></td>
+    </tr>
+  </tbody>
+</table>
