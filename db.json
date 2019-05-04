@@ -1,0 +1,8 @@
+{
+    "pedido": [
+        {"id":0, "itens":["dkasjd","kfasfls"], "nome_do_comprador":"fragoso", "valor": 50}
+    ],
+    "prato": [
+        {"id":0, "nome":"dkasjd", "quantidade": 50 , "valor": 50}
+    ]
+}
